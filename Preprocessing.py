@@ -5,16 +5,16 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 # Define the paths to the extracted email folders
 extracted_paths = {
-    "spam": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/spam_emails",
-    "easy_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/easy_ham_emails",
-    "hard_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/hard_ham_emails"
+    "spam": "C:/Users/spam_emails",
+    "easy_ham": "C:/Users//easy_ham_emails",
+    "hard_ham": "C:/Users//hard_ham_emails"
 }
 
 # Define the tar archive paths
 tar_files = {
-    "spam": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/20021010_spam.tar.bz2",
-    "easy_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/20021010_easy_ham.tar.bz2",
-    "hard_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/20021010_hard_ham.tar.bz2"
+    "spam": "C:/Users/20021010_spam.tar.bz2",
+    "easy_ham": "C:/20021010_easy_ham.tar.bz2",
+    "hard_ham": "C:/Users/20021010_hard_ham.tar.bz2"
 }
 
 # Function to extract tar files without filtering (using filter=None)

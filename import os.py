@@ -27,9 +27,9 @@ manual_stopwords = set([
 
 # Paths to tar files
 paths = {
-    "spam": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/20021010_spam.tar",
-    "easy_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/20021010_easy_ham.tar",
-    "hard_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/20021010_hard_ham.tar"
+    "spam": "C:/Users/20021010_spam.tar",
+    "easy_ham": "C:/Users/20021010_easy_ham.tar",
+    "hard_ham": "C:/Users/20021010_hard_ham.tar"
 }
 
 # Extract tar files to temporary folders

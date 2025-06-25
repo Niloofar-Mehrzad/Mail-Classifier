@@ -8,9 +8,9 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 # Define the paths to the extracted email folders
 extracted_paths = {
-    "spam": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/spam_emails",
-    "easy_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/easy_ham_emails",
-    "hard_ham": "C:/Users/mmehr/OneDrive/Desktop/CHALMERS/3_ThirdYear/3_StudyPeriod2/Introduction to data science and AI - DAT565/Assignments/Assignment_3/hard_ham_emails"
+    "spam": "C:/Users/spam_emails",
+    "easy_ham": "C:/Users/easy_ham_emails",
+    "hard_ham": "C:/Users/hard_ham_emails"
 }
 
 # Hardcoded list of common stopwords
